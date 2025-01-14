@@ -22,22 +22,19 @@ import kotlin.math.min
 class Solution {
     fun divide(dividend: Int, divisor: Int): Int {
 
-        val sign = if (dividend > 0 && divisor > 0 || dividend < 0 && divisor < 0) {
-            1
-        } else {
-            -1
-        }
+        val isPositive = (dividend > 0 && divisor > 0 || dividend < 0 && divisor < 0)
 
         val p = abs(dividend.toLong())
         val q = abs(divisor.toLong())
         if (q == 1L) {
-            return if (sign == 1) min(Int.MAX_VALUE.toLong(), p).toInt()
+            return if (isPositive) min(Int.MAX_VALUE.toLong(), p).toInt()
                    else (-p).toInt()
         }
 
         if (q >= 1024) {
             val (div, _) = divMod(p, q)
-            return sign * div
+            return if (isPositive) div 
+                   else -div
         }
 
         var nq = q
@@ -55,7 +52,8 @@ class Solution {
             answer += cnt
         }
 
-        return sign * answer
+        return if (isPositive) answer
+               else -answer
     }
 
     fun divMod(dividend: Long, divisor: Long): Pair<Int, Int> {
