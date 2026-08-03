@@ -11,8 +11,14 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0089-gray-code](https://github.com/StarSein/LeetCodeProblemSolving/tree/main/0089-gray-code/) | Medium |
+| [0090-subsets-ii](https://github.com/StarSein/LeetCodeProblemSolving/tree/main/0090-subsets-ii/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0089-gray-code](https://github.com/StarSein/LeetCodeProblemSolving/tree/main/0089-gray-code/) | Medium |
+| [0090-subsets-ii](https://github.com/StarSein/LeetCodeProblemSolving/tree/main/0090-subsets-ii/) | Medium |
+## Array
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0090-subsets-ii](https://github.com/StarSein/LeetCodeProblemSolving/tree/main/0090-subsets-ii/) | Medium |
 <!---LeetCode Topics End-->
