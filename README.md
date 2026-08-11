@@ -29,4 +29,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0091-decode-ways](https://github.com/StarSein/LeetCodeProblemSolving/tree/main/0091-decode-ways/) | Medium |
+## Linked List
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0092-reverse-linked-list-ii](https://github.com/StarSein/LeetCodeProblemSolving/tree/main/0092-reverse-linked-list-ii/) | Medium |
 <!---LeetCode Topics End-->
